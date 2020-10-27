@@ -1,0 +1,31 @@
+【テキストの役割_現役シリコンバレーエンジニアが教えるPython3入門＋応用＋アメリカのシリコンバレー流コードスタイル】
+Udemy lessonnを実行している際に出たエラーコードをメモして、解決までもっていく。
+
+【テンプレ_レッスン番号】
+<エラーコード>
+
+<理由>
+
+
+
+
+【secssion3_8_変数宣言】
+<エラーコード>
+SyntaxError: Non-UTF-8 code starting with '\x82' in file secssion3_8_変数宣言.py on line 7, but no encoding declared; see http://python.org/dev/peps/pep-0263/ for details
+
+<理由>
+要はutf-8でファイル作成保存が必要。shitjisで作成してしまっていた
+参考：https://teratail.com/questions/79980
+
+
+
+<エラーコード>
+PS C:\Users\yamato-kawamura\Desktop\programing\U_Python3> python secssion3_8_変数宣言.py
+1
+Traceback (most recent call last):
+  File "secssion3_8_変数宣言.py", line 5, in <module>
+    name = mike
+NameError: name 'mike' is not defined
+
+<理由>
+mikeを '' でくくらなかったからエラーが起こった。
