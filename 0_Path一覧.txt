@@ -1,0 +1,17 @@
+
+【Git bash用】
+C:/Users/yamato-kawamura/Desktop/programing/U_Python3
+
+
+
+【Gitメモ】
+# ローカルリポジトリの作成
+  Git bashを用いてlocal端末の任意のフォルダへ移動(CD)し下記を入力
+    git init
+
+  リモートリポジトリ(Github)を追加する
+    git remote add origin https://github.com/user/xxxxxx
+
+  GitHubへPushする
+    git push <remote名><ブランチ名>
+    git push origin master
