@@ -29,3 +29,12 @@ NameError: name 'mike' is not defined
 
 <理由>
 mikeを '' でくくらなかったからエラーが起こった。
+
+【section3-10_Numerical-value】
+<エラーコード>
+PS C:\Users\yamato-kawamura\Desktop\programing\U_Python3> python section3-10_ Numerical-value.py
+C:\programs-Installed\anaconda3\python.exe: can't open file 'section3-10_': [Errno 2] No such file or directory
+
+<理由>
+file名に不要な半角スペースが入っていた（10の後ろ）
+
