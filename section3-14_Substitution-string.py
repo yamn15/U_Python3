@@ -17,12 +17,12 @@ print ('My name is {0} {1} ' .format('Yamato', 'Kawamura'))
 
 print ('My name is {0} {1} . Watashiha {1} {0}' .format('Yamato', 'Kawamura'))
 
-
 print('******************************************************************')
 
 #変数を指定することもできる
 print ('My name is {name} {family} . Watashiha {family} {name}' .format(name ='Yamato' , family = 'Kawamura'))
 
+print('******************************************************************')
 
 
 
