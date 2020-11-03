@@ -24,6 +24,42 @@ print ('My name is {name} {family} . Watashiha {family} {name}' .format(name ='Y
 
 print('******************************************************************')
 
+#型の変換
+##通常単純に1を出力したらinteger
+print(1)
+print(1, type(1))
+
+
+##''で囲んで1を出力したらstring
+print('1')
+print('1', type('1'))
+
+##明示的にstrで囲めば、stringになる
+print(str(1))
+print(str(1), type(str(1)))
+
+x = str(1)
+type(x)
+print(type(x))
+
+print('******************************************************************')
+
+print(3.14)
+print(3.14, type(3.14))
+
+print(str(3.14))
+print(str(3.14), type(str(3.14)))
+
+print('******************************************************************')
+
+print(True)
+print(True, type(True))
+
+print(str(True))
+print(str(True), type(str(True)))
+
+print('******************************************************************')
+
 
 
 
