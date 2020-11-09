@@ -43,3 +43,31 @@ print(r)
 print(type(r))
 
 print('**********************************************************************')
+
+print(d)
+
+# dictの中身を取り出したい場合は、x.popを使用する
+## xのバリューがdictから取り出されて出力される
+print(d.pop('x'))
+
+### x.popの後にdictを出力すると、xのkey/valueがなくなっている
+print(d)
+
+# delでkeyを指定すると、dictからkey/valueを削除できる
+del d['y']
+print(d)
+
+## 変数自体を削除することも可能。定義自体の削除が可能なので要注意
+# del d
+# print(d)
+
+### dictの中身を消したい場合はx.clear()を使用する
+d.clear()
+print(d)
+
+print('**********************************************************************')
+
+# dictの中にkeyがあるかどうかを調べる場合は、 key in xを使用する（True or Falseで出力）
+d = {'a': 100, 'b': 200}
+print('a' in d)
+print('j' in d)
