@@ -1,0 +1,21 @@
+
+【VScodeの設定でひっかかった項目】
+
+◆ デバッグコンソールに関する設定
+  エラー内容
+  デバッグを開始しても、ターミナルでデバッグが走ってしまう。
+  また、ターミナルではパワーシェルらしきエラーが出る
+
+  参考記事
+    https://qiita.com/Kaysk/items/4b2cf104c9de1301cbfe
+
+  解法
+    
+
+
+【PCに関してひっかかった項目】
+
+◆ Powershell
+  コマンドプロンプトの進化版
+◆ Powershell ISE
+  PowershellのGUI版
