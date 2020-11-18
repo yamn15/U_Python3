@@ -6,13 +6,12 @@ print('**********************************************************************')
 
 is_empty = None
 print(type(is_empty))
-print(help(is_empty))
+# print(help(is_empty))
 
 print('**********************************************************************')
 
 if is_empty == None:
     print('None!!!')
-
 
 
 
