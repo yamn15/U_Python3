@@ -1,17 +1,17 @@
 
-yGit bash—pz
+ã€Git bashç”¨ã€‘
 C:/Users/yamato-kawamura/Desktop/programing/U_Python3
 
 
 
-yGitƒƒ‚z
-# ƒ[ƒJƒ‹ƒŠƒ|ƒWƒgƒŠ‚Ìì¬
-  Git bash‚ğ—p‚¢‚Älocal’[––‚Ì”CˆÓ‚ÌƒtƒHƒ‹ƒ_‚ÖˆÚ“®(CD)‚µ‰º‹L‚ğ“ü—Í
+ã€Gitãƒ¡ãƒ¢ã€‘
+# ãƒ­ãƒ¼ã‚«ãƒ«ãƒªãƒã‚¸ãƒˆãƒªã®ä½œæˆ
+  Git bashã‚’ç”¨ã„ã¦localç«¯æœ«ã®ä»»æ„ã®ãƒ•ã‚©ãƒ«ãƒ€ã¸ç§»å‹•(CD)ã—ä¸‹è¨˜ã‚’å…¥åŠ›
     git init
 
-  ƒŠƒ‚[ƒgƒŠƒ|ƒWƒgƒŠ(Github)‚ğ’Ç‰Á‚·‚é
+  ãƒªãƒ¢ãƒ¼ãƒˆãƒªãƒã‚¸ãƒˆãƒª(Github)ã‚’è¿½åŠ ã™ã‚‹
     git remote add origin https://github.com/user/xxxxxx
 
-  GitHub‚ÖPush‚·‚é
-    git push <remote–¼><ƒuƒ‰ƒ“ƒ`–¼>
+  GitHubã¸Pushã™ã‚‹
+    git push <remoteå><ãƒ–ãƒ©ãƒ³ãƒå>
     git push origin master
