@@ -20,7 +20,8 @@ print('**********************************************************************')
 for i, fruit in enumerate(['apple', 'banana', 'orange']):
     print(i, fruit)
 
-
+# enumerate関数参考
+# https://techacademy.jp/magazine/15640
 
 
 

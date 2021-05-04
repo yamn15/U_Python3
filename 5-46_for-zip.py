@@ -19,6 +19,7 @@ for day, fruit, drink in zip(days, fruits, drinks):
 print('**********************************************************************')
 
 
-
+# zip関数参考
+# https://note.nkmk.me/python-zip-usage-for/
 
 

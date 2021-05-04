@@ -48,4 +48,5 @@ print('**********************************************************************')
 for _ in range(10):
     print('hello')
 
-
+# range関数参考
+# https://www.javadrive.jp/python/function/index6.html

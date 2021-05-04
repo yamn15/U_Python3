@@ -46,3 +46,5 @@ for word in ['My', 'name', 'is', 'Mike']:
 
 print('**********************************************************************')
 
+# len関数参考
+# https://www.javadrive.jp/python/function/index4.html
