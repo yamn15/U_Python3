@@ -1,5 +1,7 @@
 # 位置引数とキーワード引数とデフォルト引数
 print('**********************************************************************')
+print('(1)')
+
 
 def menu(entree):
     print(entree)
@@ -7,6 +9,7 @@ def menu(entree):
 menu('beef')
 
 print('**********************************************************************')
+print('(2)')
 
 # メニューを複数出力する場合
 ## 引数を複数定義できる
@@ -15,11 +18,12 @@ def menu(entree, drink, dessert):
     print(drink)
     print(dessert)
 
-# 引数の順番を間違えると、想定道理に出力されないので要注意
+# 引数の順番を間違えると、想定通りに出力されないので要注意
 # menu('beef', 'ice', 'beer')
 menu('beef', 'beer', 'ice')
 
 print('**********************************************************************')
+print('(3)')
 
 def menu2(entree, drink, dessert):
     print('entree =', entree)
@@ -32,6 +36,7 @@ def menu2(entree, drink, dessert):
 menu2(entree='beef', dessert='beer', drink='ice')
 
 print('**********************************************************************')
+print('(4)')
 
 def menu3(entree, drink, dessert):
     print('entree =', entree)
@@ -46,6 +51,7 @@ menu3('beef', dessert='beer', drink='ice')
 # menu3(dessert='beer','beef', drink='ice')
 
 print('**********************************************************************')
+print('(5)')
 
 # デフォルト引数
 def menu4(entree='fish', drink='white wine', dessert='gelate'):
@@ -64,6 +70,5 @@ def menu4(entree='fish', drink='white wine', dessert='gelate'):
 menu4('chiken', drink='beer')
 
 
-print('**********************************************************************')
 
 
