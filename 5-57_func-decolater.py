@@ -1,4 +1,4 @@
-# クロージャ―
+# デコレータ
 ## https://qiita.com/_rdtr/items/d3bc1a8d4b7eb375c368
 ## https://qiita.com/mtb_beta/items/d257519b018b8cd0cc2e
 ## https://qiita.com/deaikei/items/07d456c6eafccf986b64

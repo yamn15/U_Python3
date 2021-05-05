@@ -14,7 +14,7 @@ print('(2)')
 # 関数内関数
 # 関数内のみで使用される関数を定義できる
 ## outerの引数1と2がまず、outer関数a,bに入る
-### innerのrの引数a,bに1,2が入る
+### innerのplus関数の引数a,bに1,2が入る
 #### a,bに入った1,2がc,dに入り、returnの処理が行われる
 ##### rにreturnの結果が返る
 def outer(a, b):
