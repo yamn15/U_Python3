@@ -14,7 +14,7 @@ print('(2)')
 
 animal2 = 'cat'
 
-def = f():
+def f():
     print(animal2)
 
 # Function内からグローバル変数の出力を行う
@@ -30,8 +30,8 @@ animal3 = 'cat'
 ## 関数内にanimalを定義したことにより、一番上のanimal3はグローバル変数(cat)ではなく、ローカル変数(関数内の変数)としてみなされる。
 ### animal3が何も定義されていないためprintできないというエラーになる
 #### 関数内の最初のprintをコメントアウトすると、動くプログラムになる
-def = f():
-    print(animal3)
+def f():
+    # print(animal3)
     animal3 = 'dog'
     print('after', animal3)
 
@@ -49,7 +49,7 @@ print('(4)')
 
 animal4 = 'cat'
 
-def = f():
+def f():
     # 明示的にグローバルの変数を扱うと宣言する
     global animal4
     animal4 = 'dog'
@@ -65,7 +65,7 @@ print('(5)')
 
 animal5 = 'cat'
 
-def = f():
+def f():
     # ローカル変数をコメントアウトした場合、locals()には、空のdictが出力される
     animal5 = 'dog'
     print('local:', locals())
@@ -82,7 +82,7 @@ print('(6)')
 
 animal6 = 'cat'
 
-def = f():
+def f():
     # ローカル変数をコメントアウトした場合、locals()には、空のdictが出力される
     animal6 = 'dog'
     print('local:', locals())
@@ -107,7 +107,7 @@ print('(7)')
 
 animal7 = 'cat'
 
-def = f():
+def f():
     """ Testfunc doc """
     print(f.__name__)
     print(f.__doc__)
